@@ -1,0 +1,11 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: Consolas, "Courier New", monospace;
+}
+
+bronco-side-navbar {
+  --bg-color: none;
+}
