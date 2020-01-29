@@ -36,7 +36,7 @@ services:
     image: mongo:latest
     container_name: "mongodb"
     volumes:
-      - ./data:/data
+      - /data:/data
     ports:
         - 27017:27017
     command: mongod
