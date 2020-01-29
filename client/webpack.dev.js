@@ -6,7 +6,8 @@ module.exports = {
     historyApiFallback: {
       rewrites: [ { from: /^\/[a-z]*/, to: '/index.html' }, ]
     },
-    publicPath: ''
+    publicPath: '',
+    disableHostCheck: true,   // That solved it
   },
   resolve: { extensions: ['.ts', '.js'] },
   module: { rules: [
